@@ -19,9 +19,9 @@
     <script src="javascripts/foundation/modernizr.foundation.js"></script>
   </head>
   <body>
-    <div class="row">
-      <div class="five columns">
-	<img src="images/CE-logo.png" alt="CreativeEdge logo" />
+    <div class="row header">
+      <div class="four columns">
+	<a href="/" title="Home"><img src="images/CE-logo.png" alt="CreativeEdge logo" /></a>
       </div>
       <div class="four columns">
       </div>
@@ -166,7 +166,7 @@
       </div>
     </div>
 
-    <div class="footer">
+    <div id="contact-us" class="footer">
       <div class="row">
 	<div class="twelve columns">
 	  <h1 class="text-left">Contact us</h1>
@@ -237,7 +237,7 @@
     <script src="javascripts/foundation/app.js"></script>
     <script type='text/javascript'>
       $(window).load(function() {
-      $('#featuredContent').orbit({fluid: '10x6', bulletThumbs: true, captions: false});
+      $('#featuredContent').orbit({animation: 'fade', animationSpeed: 1000, fluid: '10x6', bulletThumbs: true, captions: false});
       });
     </script>
   </body>

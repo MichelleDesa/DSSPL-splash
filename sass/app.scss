@@ -146,6 +146,14 @@ small {
 
 
 /* $PAGE SPECIFIC STYLES */
+html, body {
+    margin: 0;
+}
+
+.header {
+    margin: 10px auto;
+}
+
 h1, .img-wrapper {
     @extend .text-center;
 }

@@ -2,51 +2,197 @@
 @import "settings";
 
 // Comment out this import if you are customizing you imports below
-@import "foundation";
+/* @import "foundation"; */
 
 // ----------------------------------------
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
-// @import "compass/css3";
-// @import "foundation/settings";
-// @import "foundation/functions/all";
+@import "compass/css3";
+@import "foundation/settings";
+@import "foundation/functions/all";
 
 // Control which mixins you have access too
 
-// @import "foundation/mixins/clearfix";
-// @import "foundation/mixins/css-triangle";
-// @import "foundation/mixins/font-size";
+@import "foundation/mixins/clearfix";
+@import "foundation/mixins/css-triangle";
+@import "foundation/mixins/font-size";
 
 // Must include next two for semantic grid to work
 
-// @import "foundation/mixins/respond-to";
-// @import "foundation/mixins/semantic-grid";
+@import "foundation/mixins/respond-to";
+@import "foundation/mixins/semantic-grid";
 
-// @import "modular-scale";
-// @import "foundation/common/globals";
+@import "modular-scale";
+@import "foundation/common/globals";
 
 // Must include the grid for any responsiveness
 
-// @import "foundation/components/grid";
+@import "foundation/components/grid";
 
 // Control which common styles get compiled
 
-// @import "foundation/common/typography";
-// @import "foundation/common/forms";
+/* @import "foundation/common/typography"; */
+@import "foundation/common/forms";
 
 // Control which components you get if customizing
 
-// @import "foundation/components/modules/buttons";
-// @import "foundation/components/modules/tabs";
-// @import "foundation/components/modules/ui";
-// @import "foundation/components/modules/topbar";
-// @import "foundation/components/modules/navbar";
-// @import "foundation/components/modules/orbit";
-// @import "foundation/components/modules/reveal";
-// @import "foundation/components/modules/offcanvas";
-// @import "foundation/components/modules/clearing";
-// @import "foundation/components/modules/joyride";
+@import "foundation/components/modules/buttons";
+@import "foundation/components/modules/tabs";
+@import "foundation/components/modules/ui";
+@import "foundation/components/modules/topbar";
+@import "foundation/components/modules/navbar";
+@import "foundation/components/modules/orbit";
+@import "foundation/components/modules/reveal";
+@import "foundation/components/modules/offcanvas";
+@import "foundation/components/modules/clearing";
+@import "foundation/components/modules/joyride";
 
 // Media Queries Overrides
-// @import "foundation/components/modules/mqueries";
+@import "foundation/components/modules/mqueries";
+
+/* $TYPOGRAPHY */
+$base-font-size: 18px;
+$small-font-size: 14px;
+$base-line-height: 1.4;
+$header-line-height: 1;
+$alt-header-line-height: 1.2;
+
+$h1-font-size: 38px;
+$h2-font-size: 30px;
+$h3-font-size: 20px;
+$h4-font-size: 18px;
+$h5-font-size: 16px;
+$h6-font-size: 14px;
+
+$body-font: Raleway, sans-serif;
+$header-font: Arvo, serif;
+$alt-header-font: $body-font;
+
+body {
+    @include font-size($base-font-size);
+    text-rendering: optimizeLegibility;
+    line-height: $base-line-height;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+    font-weight: normal;
+    line-height: $header-line-height;
+    text-rendering: optimizeLegibility;
+    &.subheader {
+	font-family: $alt-header-font;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: $alt-header-line-height;
+    }
+}
+
+h1 {
+    @include font-size($h1-font-size);
+}
+
+h2 {
+    @include font-size($h2-font-size);
+}
+
+h3 {
+    @include font-size($h3-font-size);
+}
+
+h4 {
+    @include font-size($h4-font-size);
+}
+
+h5 {
+    @include font-size($h5-font-size);
+}
+
+h6 {
+    @include font-size($h6-font-size);
+}
+
+small {
+    @include font-size($small-font-size);
+}
+
+.emp {
+    @include font-size(16px);
+    font-family: $alt-header-font;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: $alt-header-line-height;
+}
+
+
+
+/* $HELPERS */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.v-margin-10 {
+    margin: 10px 0;
+}
+
+
+
+/* $PAGE SPECIFIC STYLES */
+h1, .img-wrapper {
+    @extend .text-center;
+}
+
+.highlighted-link {
+    @include font-size(14px);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $dark-body-color;
+    background-color: $highlight-color;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    &:hover {
+	color: $dark-body-color;
+	background: darken($highlight-color, 5%);
+    }
+}
+
+#benefits-block .subheader {
+    min-height: 75px;
+}
+
+#training-verticals .subheader{
+    min-height: 50px;
+}
+
+.block {
+    margin-bottom: 120px;
+}
+
+.footer {
+    color: $light-body-color;
+    background-color: $dark-body-color;
+    h1, h2, h3, h4, h5, h6 {
+	color: $light-body-color;
+    }
+    p {
+	margin: 10px 0;
+	&.notice {
+	    margin: 40px 0 20px;
+	}
+    }
+}
+
+.notice {
+    @include font-size($small-font-size);
+    text-align: center;
+}

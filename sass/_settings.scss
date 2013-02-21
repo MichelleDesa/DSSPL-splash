@@ -12,36 +12,35 @@
 
 // Colors Settings
 
-// $mainColor: #2ba6cb;
+$highlight-color: #ff9000;
+$dark-body-color: #0d0d0d;
+$light-body-color: #e1caad;
+$mainColor: $highlight-color;
 // $secondaryColor: #e9e9e9;
 // $alertColor: #c60f13;
 // $successColor: #5da423;
-// $txtColor: #222;
+$txtColor: $dark-body-color;
 // $highlightColor: #ffff99;
 // $black: #000;
 // $white: #fff;
-// $shinyEdge: rgba(#fff, .5);
-// $darkEdge: rgba(#000, .2);
+// $shinyEdge: rgba(#fff, .1);
+$darkEdge: rgba(#fff, .2);
 
 // Font Settings
 
 // $fontSmoothing: antialiased;
-// $headerFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $headerFontWeight: bold;
-// $headerFontStyle: normal;
-// $headerFontColor: #222;
-// $bodyFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $bodyFontWeight: normal;
-// $bodyFontStyle: normal;
-// $bodyFontColor: $txtColor;
-
-// Text Direction Settings
-
-// $textDirection: ltr; // Controls default global text direction, 'rtl' or 'ltr'
+$headerFontFamily: Arvo, serif;
+$headerFontWeight: normal;
+$sub-header-font: Arvo, serif;
+$sub-header-weight: 600;
+$headerFontColor: $dark-body-color;
+$bodyFontFamily: "Raleway", sans-serif;
+$bodyFontWeight: 400;
+$bodyFontColor: $dark-body-color;
 
 // Button Settings
 
-// $buttonRadius: 3px;
+$buttonRadius: 0;
 // $btnBase: 10px;
 
 // $tinyBtnBase: $btnBase - 5;
@@ -82,11 +81,6 @@
 // $custDropdownSelectedBgColor: lighten(#2ba6cb, 40%);
 // $custDropdownSelectedFontColor: #000;
 // $custFormDisabledBgColor: #ddd;
-
-// Tab Settings
-
-// $tabHeight: 40px;
-// $tabTermFontSize: 12px;
 
 // Nav Bar Settings
 
@@ -144,43 +138,6 @@
 // $tooltipBgOpacityScreenSm: 0.85;
 // $tooltipBorderRadius: 4px;
 
-// Pricing Table Settings
-
-// $priceTableBorder: solid 1px #ddd;
-// $priceTitleBgColor: #ddd;
-// $priceTitlePadding: 15px 20px;
-// $priceTitleAlign: center;
-// $priceTitleColor: #333;
-// $priceTitleWeight: bold;
-// $priceTitleSize: 16px;
-
-// $priceMoneyBgColor: #eee;
-// $priceMoneyPadding: 15px 20px;
-// $priceMoneyAlign: center;
-// $priceMoneyColor: #333;
-// $priceMoneyWeight: normal;
-// $priceMoneySize: 20px;
-
-// $priceBgColor: #fff;
-// $priceDescColor: #777;
-// $priceDescPadding: 15px;
-// $priceDescAlign: center;
-// $priceDescFontSize: 12px;
-// $priceDescWeight: normal;
-// $priceDescLineHeight: 1.4;
-// $priceDescBtmBorder: dotted 1px #ddd;
-
-// $priceItemColor: #333;
-// $priceItemPadding: 15px;
-// $priceItemAlign: center;
-// $priceItemFontSize: 14px;
-// $priceItemWeight: normal;
-// $priceItemBtmBorder: dotted 1px #ddd;
-
-// $priceCtaBgColor: #f5f5f5;
-// $priceCtaAlign: center;
-// $priceCtaPadding: 20px;
-
 // Orbit Settings
 
 // $orbitCaptionBgColorOldBrowser: #000;
@@ -213,26 +170,6 @@
 // $clearingCarouselThumbActiveBorder: 4px solid rgb(255,255,255);
 // $clearingImgBg: rgba(0,0,0,0.75);
 // $clearingImgOldBrowserBg: rgb(0,0,0);
-
-// Joyride Settings
-
-// $tipBg: rgba(0,0,0,0.8);
-// $tipBgIE8: #000;
-// $tipFontColor: #fff;
-// $tipHeaderWeight: bold;
-// $tipDefaultWidth: 300px;
-// $tipBorderRadius: 4px;
-// $tipPadding: 18px 20px 24px;
-// $tipNubSize: 14px;
-// $tipFontSize: 14px;
-// $tipTimerWidth: 50px;
-// $tipTimerHeight: 3px;
-// $tipTimerBorder: solid 1px #555;
-// $tipTimerColor: #666;
-// $tipCloseColor: #777;
-// $tipCloseSize: 20px;
-// $tipCloseWeight: normal;
-// $tipScreenFill: rgba(0,0,0,0.5);
 
 // Modular Scale Settings
 

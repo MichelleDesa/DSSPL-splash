@@ -158,6 +158,11 @@ h1, .img-wrapper {
     @extend .text-center;
 }
 
+.tm {
+    @include font-size(32px);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .highlighted-link {
     @include font-size(14px);
     text-align: center;

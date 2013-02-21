@@ -6023,6 +6023,13 @@ html, body {
 }
 
 /* line 161, ../sass/app.scss */
+.tm {
+  font-size: 32px;
+  font-size: 3.2rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* line 166, ../sass/app.scss */
 .highlighted-link {
   font-size: 14px;
   font-size: 1.4rem;
@@ -6035,13 +6042,13 @@ html, body {
   width: 100%;
   padding: 10px;
 }
-/* line 171, ../sass/app.scss */
+/* line 176, ../sass/app.scss */
 .highlighted-link:hover {
   color: #0d0d0d;
   background: #f38809;
 }
 
-/* line 178, ../sass/app.scss */
+/* line 183, ../sass/app.scss */
 .orbit-wrapper .orbit-caption {
   font-size: 20px;
   font-size: 2rem;
@@ -6055,76 +6062,76 @@ html, body {
   display: inline-block;
   bottom: auto;
 }
-/* line 190, ../sass/app.scss */
+/* line 195, ../sass/app.scss */
 .orbit-wrapper #captionOne, .orbit-wrapper #captionThree {
   text-align: right;
   top: 20px;
   right: 20px;
 }
-/* line 195, ../sass/app.scss */
+/* line 200, ../sass/app.scss */
 .orbit-wrapper #captionTwo, .orbit-wrapper #captionFour {
   text-align: left;
   top: 20px;
   left: 20px;
 }
-/* line 200, ../sass/app.scss */
+/* line 205, ../sass/app.scss */
 .orbit-wrapper .timer {
   display: none;
 }
 
-/* line 205, ../sass/app.scss */
+/* line 210, ../sass/app.scss */
 #benefits-block .subheader {
   min-height: 75px;
 }
 
-/* line 209, ../sass/app.scss */
+/* line 214, ../sass/app.scss */
 #training-verticals .subheader {
   min-height: 50px;
 }
 
-/* line 214, ../sass/app.scss */
+/* line 219, ../sass/app.scss */
 #benefits-block p, #training-verticals p {
   margin-bottom: 80px;
 }
-/* line 217, ../sass/app.scss */
+/* line 222, ../sass/app.scss */
 #benefits-block .subheader, #training-verticals .subheader {
   margin-bottom: 0;
 }
 
-/* line 222, ../sass/app.scss */
+/* line 227, ../sass/app.scss */
 #training-details-button {
   margin-bottom: 80px;
 }
 
-/* line 226, ../sass/app.scss */
+/* line 231, ../sass/app.scss */
 .available-as {
   margin-bottom: 10px;
 }
 
-/* line 230, ../sass/app.scss */
+/* line 235, ../sass/app.scss */
 .block {
   margin-bottom: 120px;
 }
 
-/* line 234, ../sass/app.scss */
+/* line 239, ../sass/app.scss */
 .footer {
   color: #e1caad;
   background-color: #0d0d0d;
 }
-/* line 237, ../sass/app.scss */
+/* line 242, ../sass/app.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #e1caad;
 }
-/* line 240, ../sass/app.scss */
+/* line 245, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
 }
-/* line 242, ../sass/app.scss */
+/* line 247, ../sass/app.scss */
 .footer p.notice {
   margin: 40px 10px 20px;
 }
 
-/* line 248, ../sass/app.scss */
+/* line 253, ../sass/app.scss */
 .notice {
   font-size: 14px;
   font-size: 1.4rem;

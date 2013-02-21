@@ -6041,40 +6041,90 @@ html, body {
   background: #f38809;
 }
 
-/* line 177, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
+.orbit-wrapper .orbit-caption {
+  font-size: 20px;
+  font-size: 2rem;
+  text-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px;
+  color: #f7941e;
+  text-transform: uppercase;
+  font-weight: 900;
+  background: none;
+  width: auto;
+  position: absolute;
+  display: inline-block;
+  bottom: auto;
+}
+/* line 190, ../sass/app.scss */
+.orbit-wrapper #captionOne, .orbit-wrapper #captionThree {
+  text-align: right;
+  top: 20px;
+  right: 20px;
+}
+/* line 195, ../sass/app.scss */
+.orbit-wrapper #captionTwo, .orbit-wrapper #captionFour {
+  text-align: left;
+  top: 20px;
+  left: 20px;
+}
+/* line 200, ../sass/app.scss */
+.orbit-wrapper .timer {
+  display: none;
+}
+
+/* line 205, ../sass/app.scss */
 #benefits-block .subheader {
   min-height: 75px;
 }
 
-/* line 181, ../sass/app.scss */
+/* line 209, ../sass/app.scss */
 #training-verticals .subheader {
   min-height: 50px;
 }
 
-/* line 185, ../sass/app.scss */
+/* line 214, ../sass/app.scss */
+#benefits-block p, #training-verticals p {
+  margin-bottom: 80px;
+}
+/* line 217, ../sass/app.scss */
+#benefits-block .subheader, #training-verticals .subheader {
+  margin-bottom: 0;
+}
+
+/* line 222, ../sass/app.scss */
+#training-details-button {
+  margin-bottom: 80px;
+}
+
+/* line 226, ../sass/app.scss */
+.available-as {
+  margin-bottom: 10px;
+}
+
+/* line 230, ../sass/app.scss */
 .block {
   margin-bottom: 120px;
 }
 
-/* line 189, ../sass/app.scss */
+/* line 234, ../sass/app.scss */
 .footer {
   color: #e1caad;
   background-color: #0d0d0d;
 }
-/* line 192, ../sass/app.scss */
+/* line 237, ../sass/app.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #e1caad;
 }
-/* line 195, ../sass/app.scss */
+/* line 240, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
 }
-/* line 197, ../sass/app.scss */
+/* line 242, ../sass/app.scss */
 .footer p.notice {
-  margin: 40px 0 20px;
+  margin: 40px 10px 20px;
 }
 
-/* line 203, ../sass/app.scss */
+/* line 248, ../sass/app.scss */
 .notice {
   font-size: 14px;
   font-size: 1.4rem;

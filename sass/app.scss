@@ -208,28 +208,40 @@ h1, .img-wrapper {
 }
 
 #benefits-block .subheader {
-    min-height: 75px;
+    min-height: 80px;
 }
 
 #training-verticals .subheader{
     min-height: 50px;
 }
 
-#benefits-block, #training-verticals {
-    p {
+@media only screen and (max-width: 767px) {
+    #benefits-block .subheader {
+	min-height: 0;
+    }
+
+    #benefits-block, #training-verticals {
+	p {
+	    margin-bottom: 80px;
+	}
+	.subheader {
+	    text-align: center;
+	    margin-bottom: 0;
+	}
+    }
+
+    #training-details-button {
 	margin-bottom: 80px;
     }
-    .subheader {
-	margin-bottom: 0;
+    
+    p.before-button {
+	margin-bottom: 20px !important;
     }
-}
-
-#training-details-button {
-    margin-bottom: 80px;
-}
-
-.available-as {
-    margin-bottom: 10px
+    
+    .available-as {
+	text-align: center;
+	margin-bottom: 10px;
+    }
 }
 
 .block {

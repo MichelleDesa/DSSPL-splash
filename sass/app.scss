@@ -2,54 +2,54 @@
 @import "settings";
 
 // Comment out this import if you are customizing you imports below
-/* @import "foundation"; */
+@import "foundation";
 
 // ----------------------------------------
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
 
 @import "compass/css3";
-@import "foundation/settings";
-@import "foundation/functions/all";
+/* @import "foundation/settings"; */
+/* @import "foundation/functions/all"; */
 
-// Control which mixins you have access too
+/* // Control which mixins you have access too */
 
-@import "foundation/mixins/clearfix";
-@import "foundation/mixins/css-triangle";
-@import "foundation/mixins/font-size";
+/* @import "foundation/mixins/clearfix"; */
+/* @import "foundation/mixins/css-triangle"; */
+/* @import "foundation/mixins/font-size"; */
 
-// Must include next two for semantic grid to work
+/* // Must include next two for semantic grid to work */
 
-@import "foundation/mixins/respond-to";
-@import "foundation/mixins/semantic-grid";
+/* @import "foundation/mixins/respond-to"; */
+/* @import "foundation/mixins/semantic-grid"; */
 
-@import "modular-scale";
-@import "foundation/common/globals";
+/* @import "modular-scale"; */
+/* @import "foundation/common/globals"; */
 
-// Must include the grid for any responsiveness
+/* // Must include the grid for any responsiveness */
 
-@import "foundation/components/grid";
+/* @import "foundation/components/grid"; */
 
-// Control which common styles get compiled
+/* // Control which common styles get compiled */
 
-/* @import "foundation/common/typography"; */
-@import "foundation/common/forms";
+/* /\* @import "foundation/common/typography"; *\/ */
+/* @import "foundation/common/forms"; */
 
-// Control which components you get if customizing
+/* // Control which components you get if customizing */
 
-@import "foundation/components/modules/buttons";
-@import "foundation/components/modules/tabs";
-@import "foundation/components/modules/ui";
-@import "foundation/components/modules/topbar";
-@import "foundation/components/modules/navbar";
-@import "foundation/components/modules/orbit";
-@import "foundation/components/modules/reveal";
-@import "foundation/components/modules/offcanvas";
-@import "foundation/components/modules/clearing";
-@import "foundation/components/modules/joyride";
+/* @import "foundation/components/modules/buttons"; */
+/* @import "foundation/components/modules/tabs"; */
+/* @import "foundation/components/modules/ui"; */
+/* @import "foundation/components/modules/topbar"; */
+/* @import "foundation/components/modules/navbar"; */
+/* @import "foundation/components/modules/orbit"; */
+/* @import "foundation/components/modules/reveal"; */
+/* @import "foundation/components/modules/offcanvas"; */
+/* @import "foundation/components/modules/clearing"; */
+/* @import "foundation/components/modules/joyride"; */
 
-// Media Queries Overrides
-@import "foundation/components/modules/mqueries";
+/* // Media Queries Overrides */
+/* @import "foundation/components/modules/mqueries"; */
 
 /* $TYPOGRAPHY */
 $base-font-size: 18px;
@@ -70,7 +70,8 @@ $header-font: Arvo, serif;
 $alt-header-font: $body-font;
 
 body {
-    @include font-size($base-font-size);
+    font-size: $base-font-size;
+    font-size: remCalc($base-font-size);
     text-rendering: optimizeLegibility;
     line-height: $base-line-height;
 }
@@ -89,35 +90,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    @include font-size($h1-font-size);
+    /* @include font-size($h1-font-size); */
+    font-size: $h1-font-size;
+    font-size: remCalc($h1-font-size);
 }
 
 h2 {
-    @include font-size($h2-font-size);
+    font-size: $h1-font-size;
+    font-size: remCalc($h1-font-size);
 }
 
 h3 {
-    @include font-size($h3-font-size);
+    font-size: $h3-font-size;
+    font-size: remCalc($h3-font-size);
 }
 
 h4 {
-    @include font-size($h4-font-size);
+    font-size: $h4-font-size;
+    font-size: remCalc($h4-font-size);
 }
 
 h5 {
-    @include font-size($h5-font-size);
+    font-size: $h5-font-size;
+    font-size: remCalc($h5-font-size);
 }
 
 h6 {
-    @include font-size($h6-font-size);
+    font-size: $h6-font-size;
+    font-size: remCalc($h6-font-size);
 }
 
 small {
-    @include font-size($small-font-size);
+    font-size: $small-font-size;
+    font-size: remCalc($small-font-size);
 }
 
 .emp {
-    @include font-size(16px);
+    font-size: 16px;
+    font-size: remCalc(16px);
     font-family: $alt-header-font;
     text-transform: uppercase;
     font-weight: 600;
@@ -159,12 +169,14 @@ h1, .img-wrapper {
 }
 
 .tm {
-    @include font-size(32px);
+    font-size: 32px;
+    font-size: remCalc(32px);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 .highlighted-link {
-    @include font-size(14px);
+    font-size: 14px;
+    font-size: remCalc(14px);
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
@@ -181,7 +193,8 @@ h1, .img-wrapper {
 
 .orbit-wrapper {
     .orbit-caption {
-	@include font-size(20px);
+        font-size: 20px;
+        font-size: remCalc(20px);
 	@include text-shadow(rgba(0,0,0,0.5) 1px 1px 1px);
 	color: $highlight-color;
 	text-transform: uppercase;
@@ -233,11 +246,11 @@ h1, .img-wrapper {
     #training-details-button {
 	margin-bottom: 80px;
     }
-    
+
     p.before-button {
 	margin-bottom: 20px !important;
     }
-    
+
     .available-as {
 	text-align: center;
 	margin-bottom: 10px;
@@ -263,6 +276,7 @@ h1, .img-wrapper {
 }
 
 .notice {
-    @include font-size($small-font-size);
+    font-size: $small-font-size;
+    font-size: remCalc($small-font-size);
     text-align: center;
 }

@@ -16,8 +16,9 @@
     <link rel="stylesheet" href="stylesheets/app.css">
     <link href='http://fonts.googleapis.com/css?family=Arvo|Raleway:900,600,400' rel='stylesheet' type='text/css'>
 
-    <script src="javascripts/foundation/modernizr.foundation.js"></script>
+    <script src="js/vendor/custom.modernizr.js"></script>
   </head>
+
   <body>
     <div class="row header">
       <div class="large-4 columns">
@@ -35,25 +36,25 @@
     <div class="row">
       <div class="large-12 columns">
 	<ul data-orbit id="featuredContent" class="centered">
-	  <li data-caption="#captionOne">
+	  <li>
 	    <img src="images/main-slides/s1.png" alt="Content acquisation image">
+	    <div class="orbit-caption" id="captionOne">Content acquisation<br/> in HD or UltraHD</div>
 	  </li>
-	  <li data-caption="#captionTwo">
+	  <li>
 	    <img src="images/main-slides/s2.png" alt="Post production image">
+	    <div class="orbit-caption" id="captionTwo">Content crafting with<br/> digital post production</div>
 	  </li>
-	  <li data-caption="#captionThree">
+	  <li>
 	    <img src="images/main-slides/s3.png" alt="Creative audio image">
+	    <div class="orbit-caption" id="captionThree">Creative audio production<br/> enhancements to content</div>
 	  </li>
-	  <li data-caption="#captionFour">
+	  <li>
 	    <img src="images/main-slides/s4.png" alt="Content delivery image">
+	    <div class="orbit-caption" id="captionFour">Finally deliver exciting<br/> experiences across the<br/> media landscape</div>
 	  </li>
 	</ul>
       </div>
     </div>
-    <span class="orbit-caption" id="captionOne">Content acquisation<br/> in HD or UltraHD</span>
-    <span class="orbit-caption" id="captionTwo">Content crafting with<br/> digital post production</span>
-    <span class="orbit-caption" id="captionThree">Creative audio production<br/> enhancements to content</span>
-    <span class="orbit-caption" id="captionFour">Finally deliver exciting<br/> experiences across the<br/> media landscape</span>
 
     <div id="text-intro-block" class="row">
       <div class="large-6 columns">
@@ -217,23 +218,15 @@
       </div>
     </div>
 
-    <!-- Included JS Files (Uncompressed) -->
-    <script src="javascripts/foundation/jquery.js"></script>
-    <script src="javascripts/foundation/jquery.cookie.js"></script>
-    <script src="javascripts/foundation/jquery.event.move.js"></script>
-    <script src="javascripts/foundation/jquery.event.swipe.js"></script>
-    <script src="javascripts/foundation/jquery.foundation.buttons.js"></script>
-    <script src="javascripts/foundation/jquery.foundation.clearing.js"></script>
-    <script src="javascripts/foundation/jquery.foundation.mediaQueryToggle.js"></script>
-    <script src="javascripts/foundation/jquery.foundation.navigation.js"></script>
-    <script src="javascripts/foundation/jquery.foundation.orbit.js"></script>
-    <script src="javascripts/foundation/jquery.foundation.reveal.js"></script>
-    <!-- Application Javascript, safe to override -->
-    <script src="javascripts/foundation/app.js"></script>
-    <script type='text/javascript'>
-      $(window).load(function() {
-      $('#featuredContent').orbit({animation: 'fade', animationSpeed: 1000, fluid: '2x1', bulletThumbs: true, captions: true});
-      });
-    </script>
+    <script>
+      document.write('<script src=' +
+			      ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+			      '.js><\/script>')
+      </script>
+      <script src="js/foundation/foundation.js"></script>
+      <script src="js/foundation/foundation.orbit.js"></script>
+      <script>
+	$(document).foundation('orbit',{animation: 'fade', animation_speed: 1000, fluid: '2x1', bullets: false, captions: true});
+      </script>
   </body>
 </html>

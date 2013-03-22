@@ -10,11 +10,38 @@
 /* // $mobileTotalColumns: 4; */
 /* // $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported */
 
-// Colors Settings
-
+/* $THEME COLORS */
+$p1-bg-color: #333;
+$p2-bg-color: #e1dcd9;
+$p3-bg-color: #524d45;
+$p4-bg-color: #0d0d0d;
+$p1-fg-color: #e1dcd9;
+$p2-fg-color: #333;
+$p3-fg-color: #e1dcd9;
+$p4-fg-color: #e1caad;
 $highlight-color: #f7941e;
 $dark-body-color: #0d0d0d;
 $light-body-color: #e1caad;
+
+
+
+/* $TYPOGRAPHY */
+/* $base-font-size: 18px; */
+/* $small-font-size: 14px; */
+/* $base-line-height: 1.4; */
+/* $header-line-height: 1; */
+/* $alt-header-line-height: 1.2; */
+
+/* $h1-font-size: 38px; */
+/* $h2-font-size: 30px; */
+/* $h3-font-size: 20px; */
+/* $h4-font-size: 18px; */
+/* $h5-font-size: 16px; */
+/* $h6-font-size: 14px; */
+
+$body-font: 'PT Sans Narrow', sans-serif;
+$header-font: Arvo, serif;
+$alt-header-font: $body-font;
 
 
 

@@ -24,6 +24,7 @@
   font-style: normal;
 }
 
+/* GLOBAL VARIABLES */
 /* line 4, c:/Ruby193/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.0.8/scss/foundation/components/_global.scss */
 *,
 *:before,
@@ -1526,7 +1527,7 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
-  line-height: 0.8125em;
+  line-height: 0.9125em;
 }
 /* line 186, c:/Ruby193/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.0.8/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -1744,7 +1745,7 @@ blockquote p {
 @media only screen and (min-width: 48em) {
   /* line 357, c:/Ruby193/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.0.8/scss/foundation/components/_type.scss */
   h1, h2, h3, h4, h5, h6 {
-    line-height: 1;
+    line-height: 1.1;
   }
 
   /* line 358, c:/Ruby193/lib/ruby/gems/1.9.1/gems/zurb-foundation-4.0.8/scss/foundation/components/_type.scss */
@@ -5489,23 +5490,11 @@ table tfoot tr td {
   max-width: 800px;
 }
 
-/* body { */
-/*     font-size: $base-font-size; */
-/*     font-size: remCalc($base-font-size); */
-/*     text-rendering: optimizeLegibility; */
-/*     line-height: $base-line-height; */
-/* } */
-/* line 59, ../sass/app.scss */
+/* line 52, ../sass/app.scss */
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: -1px;
   word-spacing: 3px;
-  /*     &.subheader { */
-  /* 	font-family: $alt-header-font; */
-  /* 	text-transform: uppercase; */
-  /* 	font-weight: 600; */
-  /* 	line-height: $alt-header-line-height; */
-  /*     } */
 }
 
 /* h1 { */
@@ -5513,63 +5502,63 @@ h1, h2, h3, h4, h5, h6 {
 /*     font-size: $h1-font-size; */
 /*     font-size: remCalc($h1-font-size); */
 /* } */
-/* line 77, ../sass/app.scss */
+/* line 64, ../sass/app.scss */
 .emp {
   text-transform: uppercase;
 }
 
 /* $HELPERS */
-/* line 84, ../sass/app.scss */
+/* line 71, ../sass/app.scss */
 .text-center, h2, .img-wrapper {
   text-align: center;
 }
 
-/* line 88, ../sass/app.scss */
+/* line 75, ../sass/app.scss */
 .text-right {
   text-align: right;
 }
 
-/* line 92, ../sass/app.scss */
+/* line 79, ../sass/app.scss */
 .text-left {
   text-align: left;
 }
 
-/* line 96, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .v-margin-10 {
   margin: 10px 0;
 }
 
 /* $PAGE SPECIFIC STYLES */
-/* line 103, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 html, body {
   margin: 0;
 }
 
-/* line 107, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 .header {
-  margin: 10px auto;
+  margin: 20px auto 0;
 }
 
-/* line 111, ../sass/app.scss */
+/* line 98, ../sass/app.scss */
 .p1 {
   color: #e1dcd9;
   background-color: #333333;
   padding: 1px;
 }
 
-/* line 117, ../sass/app.scss */
+/* line 104, ../sass/app.scss */
 .p2 {
   color: #333333;
   background-color: #e1dcd9;
 }
 
-/* line 122, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
 .p3 {
   color: #e1dcd9;
   background-color: #524d45;
 }
 
-/* line 131, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 .tm {
   font-size: 32px;
   font-size: 2rem;
@@ -5577,26 +5566,25 @@ html, body {
   top: -4px;
 }
 
-/* line 138, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 .highlighted-link {
-  font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
   color: #0d0d0d;
   background-color: #f7941e;
   display: inline-block;
   width: 100%;
   padding: 10px;
 }
-/* line 149, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 .highlighted-link:hover {
   color: #0d0d0d;
   background: #f38809;
 }
 
-/* line 156, ../sass/app.scss */
+/* line 142, ../sass/app.scss */
 .orbit-container .orbit-slides-container .orbit-caption {
   font-size: 48px;
   font-size: 3rem;
@@ -5611,90 +5599,91 @@ html, body {
   display: inline-block;
   bottom: auto;
 }
-/* line 170, ../sass/app.scss */
+/* line 156, ../sass/app.scss */
 .orbit-container .orbit-slides-container #captionOne, .orbit-container .orbit-slides-container #captionThree {
   text-align: right;
   top: 20px;
   right: 20px;
 }
-/* line 175, ../sass/app.scss */
+/* line 161, ../sass/app.scss */
 .orbit-container .orbit-slides-container #captionTwo, .orbit-container .orbit-slides-container #captionFour {
   text-align: left;
   top: 20px;
   left: 20px;
 }
 
-/* line 182, ../sass/app.scss */
+/* line 168, ../sass/app.scss */
 .orbit-timer {
   display: none;
 }
 
-/* line 186, ../sass/app.scss */
+/* line 172, ../sass/app.scss */
 #benefits-block .subheader {
   min-height: 80px;
 }
 
-/* line 190, ../sass/app.scss */
+/* line 176, ../sass/app.scss */
 #training-verticals .subheader {
   min-height: 56px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 195, ../sass/app.scss */
+  /* line 181, ../sass/app.scss */
   #benefits-block .subheader {
     min-height: 0;
   }
 
-  /* line 200, ../sass/app.scss */
+  /* line 186, ../sass/app.scss */
   #benefits-block p, #training-verticals p {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
-  /* line 203, ../sass/app.scss */
+  /* line 189, ../sass/app.scss */
   #benefits-block .subheader, #training-verticals .subheader {
     text-align: center;
     margin-bottom: 0;
   }
 
-  /* line 209, ../sass/app.scss */
+  /* line 195, ../sass/app.scss */
   #training-details-button {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 
-  /* line 213, ../sass/app.scss */
+  /* line 199, ../sass/app.scss */
   p.before-button {
     margin-bottom: 20px !important;
   }
 
-  /* line 217, ../sass/app.scss */
+  /* line 203, ../sass/app.scss */
   .available-as {
     text-align: center;
     margin-bottom: 10px;
   }
 }
-/* line 223, ../sass/app.scss */
+/* line 209, ../sass/app.scss */
 .block {
-  padding-bottom: 120px;
+  padding: 30px 0;
 }
 
-/* line 227, ../sass/app.scss */
+/* line 213, ../sass/app.scss */
 .footer {
   color: #e1caad;
   background-color: #0d0d0d;
+  padding-top: 30px;
 }
-/* line 230, ../sass/app.scss */
+/* line 217, ../sass/app.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #e1caad;
 }
-/* line 233, ../sass/app.scss */
+/* line 220, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
 }
-/* line 235, ../sass/app.scss */
+/* line 222, ../sass/app.scss */
 .footer p.notice {
   margin: 40px 10px 20px;
 }
 
-/* line 241, ../sass/app.scss */
+/* line 228, ../sass/app.scss */
 .notice {
   font-size: 14px;
   font-size: 0.875rem;

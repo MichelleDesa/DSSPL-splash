@@ -49,23 +49,10 @@
 
 
 
-/* body { */
-/*     font-size: $base-font-size; */
-/*     font-size: remCalc($base-font-size); */
-/*     text-rendering: optimizeLegibility; */
-/*     line-height: $base-line-height; */
-/* } */
-
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     letter-spacing: -1px;
     word-spacing: 3px;
-/*     &.subheader { */
-/* 	font-family: $alt-header-font; */
-/* 	text-transform: uppercase; */
-/* 	font-weight: 600; */
-/* 	line-height: $alt-header-line-height; */
-/*     } */
 }
 
 /* h1 { */
@@ -105,7 +92,7 @@ html, body {
 }
 
 .header {
-    margin: 10px auto;
+    margin: 20px auto 0;
 }
 
 .p1 {
@@ -136,11 +123,10 @@ h2, .img-wrapper {
 }
 
 .highlighted-link {
-    font-size: 14px;
-    font-size: remCalc(14px);
+    font-size: 16px;
+    font-size: remCalc(16px);
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
     color: $dark-body-color;
     background-color: $highlight-color;
     display: inline-block;
@@ -198,7 +184,7 @@ h2, .img-wrapper {
 
     #benefits-block, #training-verticals {
 	p {
-	    margin-bottom: 80px;
+	    margin-bottom: 60px;
 	}
 	.subheader {
 	    text-align: center;
@@ -207,7 +193,7 @@ h2, .img-wrapper {
     }
 
     #training-details-button {
-	margin-bottom: 80px;
+	margin-bottom: 60px;
     }
 
     p.before-button {
@@ -221,12 +207,13 @@ h2, .img-wrapper {
 }
 
 .block {
-    padding-bottom: 120px;
+    padding: $section-space 0;
 }
 
 .footer {
     color: $light-body-color;
     background-color: $dark-body-color;
+    padding-top: $section-space;
     h1, h2, h3, h4, h5, h6 {
 	color: $light-body-color;
     }

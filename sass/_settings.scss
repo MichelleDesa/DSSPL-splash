@@ -56,6 +56,8 @@ $header-font: 'PT Sans Narrow', sans-serif;
 $alt-header-font: $body-font;
 
 
+/* GLOBAL VARIABLES */
+$section-space: 30px;
 
 // Foundation4 Global Variables
 //
@@ -138,7 +140,7 @@ $header-font-family: $header-font;
 $header-font-weight: normal;
 //$header-font-style: normal;
 $header-font-color: $dark-body-color;
-$header-line-height: 1;
+$header-line-height: 1.1;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
 // $header-text-rendering: optimizeLegibility;

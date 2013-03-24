@@ -91,7 +91,7 @@ html, body {
     margin: 0;
 }
 
-.header {
+.topbar {
     margin: 20px auto 0;
 }
 
@@ -99,16 +99,25 @@ html, body {
     color: $p1-fg-color;
     background-color: $p1-bg-color;
     padding: 1px;
+    .header, .subheader {
+	color: $p1-fg-color;
+    }
 }
 
 .p2 {
     color: $p2-fg-color;
     background-color: $p2-bg-color;
+    .header, .subheader {
+	color: $p2-fg-color;
+    }
 }
 
 .p3 {
     color: $p3-fg-color;
     background-color: $p3-bg-color;
+    .header, .subheader {
+	color: $p3-fg-color;
+    }
 }
 
 h2, .img-wrapper {
@@ -143,8 +152,8 @@ h2, .img-wrapper {
 	font-family: $header-font-family;
 	/* @include text-shadow(rgba(0,0,0,0.5) 1px 1px 1px); */
 	color: $highlight-color;
-	text-transform: uppercase;
-	font-weight: 900;
+	/* text-transform: uppercase; */
+	/* font-weight: 900; */
 	background-color: transparent;
 	/* width: auto; */
 	position: absolute;

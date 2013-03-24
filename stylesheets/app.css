@@ -5535,7 +5535,7 @@ html, body {
 }
 
 /* line 94, ../sass/app.scss */
-.header {
+.topbar {
   margin: 20px auto 0;
 }
 
@@ -5545,20 +5545,32 @@ html, body {
   background-color: #333333;
   padding: 1px;
 }
+/* line 102, ../sass/app.scss */
+.p1 .header, .p1 .subheader {
+  color: #e1dcd9;
+}
 
-/* line 104, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 .p2 {
   color: #333333;
   background-color: #e1dcd9;
 }
+/* line 110, ../sass/app.scss */
+.p2 .header, .p2 .subheader {
+  color: #333333;
+}
 
-/* line 109, ../sass/app.scss */
+/* line 115, ../sass/app.scss */
 .p3 {
   color: #e1dcd9;
   background-color: #524d45;
 }
-
 /* line 118, ../sass/app.scss */
+.p3 .header, .p3 .subheader {
+  color: #e1dcd9;
+}
+
+/* line 127, ../sass/app.scss */
 .tm {
   font-size: 32px;
   font-size: 2rem;
@@ -5566,7 +5578,7 @@ html, body {
   top: -4px;
 }
 
-/* line 125, ../sass/app.scss */
+/* line 134, ../sass/app.scss */
 .highlighted-link {
   font-size: 16px;
   font-size: 1rem;
@@ -5578,110 +5590,110 @@ html, body {
   width: 100%;
   padding: 10px;
 }
-/* line 135, ../sass/app.scss */
+/* line 144, ../sass/app.scss */
 .highlighted-link:hover {
   color: #0d0d0d;
   background: #f38809;
 }
 
-/* line 142, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 .orbit-container .orbit-slides-container .orbit-caption {
   font-family: "PT Sans Narrow", sans-serif;
   /* @include text-shadow(rgba(0,0,0,0.5) 1px 1px 1px); */
   color: #f7941e;
-  text-transform: uppercase;
-  font-weight: 900;
+  /* text-transform: uppercase; */
+  /* font-weight: 900; */
   background-color: transparent;
   /* width: auto; */
   position: absolute;
   display: inline-block;
   bottom: auto;
 }
-/* line 154, ../sass/app.scss */
+/* line 163, ../sass/app.scss */
 .orbit-container .orbit-slides-container #captionOne, .orbit-container .orbit-slides-container #captionThree {
   text-align: right;
   top: 20px;
   right: 20px;
 }
-/* line 159, ../sass/app.scss */
+/* line 168, ../sass/app.scss */
 .orbit-container .orbit-slides-container #captionTwo, .orbit-container .orbit-slides-container #captionFour {
   text-align: left;
   top: 20px;
   left: 20px;
 }
 
-/* line 166, ../sass/app.scss */
+/* line 175, ../sass/app.scss */
 .orbit-timer {
   display: none;
 }
 
-/* line 170, ../sass/app.scss */
+/* line 179, ../sass/app.scss */
 #benefits-block .subheader {
   min-height: 80px;
 }
 
-/* line 174, ../sass/app.scss */
+/* line 183, ../sass/app.scss */
 #training-verticals .subheader {
   min-height: 56px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 179, ../sass/app.scss */
+  /* line 188, ../sass/app.scss */
   #benefits-block .subheader {
     min-height: 0;
   }
 
-  /* line 184, ../sass/app.scss */
+  /* line 193, ../sass/app.scss */
   #benefits-block p, #training-verticals p {
     margin-bottom: 60px;
   }
-  /* line 187, ../sass/app.scss */
+  /* line 196, ../sass/app.scss */
   #benefits-block .subheader, #training-verticals .subheader {
     text-align: center;
     margin-bottom: 0;
   }
 
-  /* line 193, ../sass/app.scss */
+  /* line 202, ../sass/app.scss */
   #training-details-button {
     margin-bottom: 60px;
   }
 
-  /* line 197, ../sass/app.scss */
+  /* line 206, ../sass/app.scss */
   p.before-button {
     margin-bottom: 20px !important;
   }
 
-  /* line 201, ../sass/app.scss */
+  /* line 210, ../sass/app.scss */
   .available-as {
     text-align: center;
     margin-bottom: 10px;
   }
 }
-/* line 207, ../sass/app.scss */
+/* line 216, ../sass/app.scss */
 .block {
   padding: 30px 0;
 }
 
-/* line 211, ../sass/app.scss */
+/* line 220, ../sass/app.scss */
 .footer {
   color: #e1caad;
   background-color: #0d0d0d;
   padding-top: 30px;
 }
-/* line 215, ../sass/app.scss */
+/* line 224, ../sass/app.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #e1caad;
 }
-/* line 218, ../sass/app.scss */
+/* line 227, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
 }
-/* line 220, ../sass/app.scss */
+/* line 229, ../sass/app.scss */
 .footer p.notice {
   margin: 40px 10px 20px;
 }
 
-/* line 226, ../sass/app.scss */
+/* line 235, ../sass/app.scss */
 .notice {
   font-size: 14px;
   font-size: 0.875rem;

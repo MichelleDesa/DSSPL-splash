@@ -160,6 +160,9 @@ h2, .img-wrapper {
 	display: inline-block;
 	bottom: auto;
     }
+    .orbit-slide-number {
+	display: none;
+    }
     #captionOne, #captionThree {
 	text-align: right;
 	top: 20px;
@@ -174,6 +177,11 @@ h2, .img-wrapper {
 
 .orbit-timer {
     display: none;
+}
+
+.orbit-bullets li {
+    width: 12px;
+    height: 12px;
 }
 
 #benefits-block .subheader {

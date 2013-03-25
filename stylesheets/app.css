@@ -5611,100 +5611,115 @@ html, body {
 }
 /* line 163, ../sass/app.scss */
 .orbit-container .orbit-slides-container #captionOne, .orbit-container .orbit-slides-container #captionThree {
-  text-align: right;
-  top: 20px;
-  right: 20px;
+  bottom: 10px;
+  left: 10px;
 }
-/* line 168, ../sass/app.scss */
+/* line 167, ../sass/app.scss */
 .orbit-container .orbit-slides-container #captionTwo, .orbit-container .orbit-slides-container #captionFour {
-  text-align: left;
-  top: 20px;
-  left: 20px;
+  bottom: 10px;
+  left: 10px;
 }
 
-/* line 175, ../sass/app.scss */
+/* line 174, ../sass/app.scss */
+.orbit-caption .title {
+  text-align: right;
+  font-weight: 700;
+  padding: 5px;
+  border-right: 2px solid #f7941e;
+  width: 40%;
+  display: inline-block;
+}
+/* line 182, ../sass/app.scss */
+.orbit-caption .body {
+  font-size: 1.25em;
+  font-family: "Kulturista Regular", courier, serif;
+  width: 45%;
+  display: inline-block;
+}
+
+/* line 190, ../sass/app.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 179, ../sass/app.scss */
+/* line 194, ../sass/app.scss */
 .orbit-timer {
   display: none;
 }
 
-/* line 183, ../sass/app.scss */
+/* line 198, ../sass/app.scss */
 .orbit-bullets li {
   width: 12px;
   height: 12px;
 }
 
-/* line 188, ../sass/app.scss */
+/* line 203, ../sass/app.scss */
 #benefits-block .subheader {
   min-height: 80px;
 }
 
-/* line 192, ../sass/app.scss */
+/* line 207, ../sass/app.scss */
 #training-verticals .subheader {
   min-height: 56px;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 197, ../sass/app.scss */
+  /* line 212, ../sass/app.scss */
   #benefits-block .subheader {
     min-height: 0;
   }
 
-  /* line 202, ../sass/app.scss */
+  /* line 217, ../sass/app.scss */
   #benefits-block p, #training-verticals p {
     margin-bottom: 60px;
   }
-  /* line 205, ../sass/app.scss */
+  /* line 220, ../sass/app.scss */
   #benefits-block .subheader, #training-verticals .subheader {
     text-align: center;
     margin-bottom: 0;
   }
 
-  /* line 211, ../sass/app.scss */
+  /* line 226, ../sass/app.scss */
   #training-details-button {
     margin-bottom: 60px;
   }
 
-  /* line 215, ../sass/app.scss */
+  /* line 230, ../sass/app.scss */
   p.before-button {
     margin-bottom: 20px !important;
   }
 
-  /* line 219, ../sass/app.scss */
+  /* line 234, ../sass/app.scss */
   .available-as {
     text-align: center;
     margin-bottom: 10px;
   }
 }
-/* line 225, ../sass/app.scss */
+/* line 240, ../sass/app.scss */
 .block {
   padding: 30px 0;
 }
 
-/* line 229, ../sass/app.scss */
+/* line 244, ../sass/app.scss */
 .footer {
   color: #e1caad;
   background-color: #0d0d0d;
   padding-top: 30px;
 }
-/* line 233, ../sass/app.scss */
+/* line 248, ../sass/app.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #e1caad;
 }
-/* line 236, ../sass/app.scss */
+/* line 251, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
 }
-/* line 238, ../sass/app.scss */
+/* line 253, ../sass/app.scss */
 .footer p.notice {
   margin: 40px 10px 20px;
 }
 
-/* line 244, ../sass/app.scss */
+/* line 259, ../sass/app.scss */
 .notice {
   font-size: 14px;
   font-size: 0.875rem;

@@ -161,14 +161,29 @@ h2, .img-wrapper {
 	bottom: auto;
     }
     #captionOne, #captionThree {
-	text-align: right;
-	top: 20px;
-	right: 20px;
+	bottom: 10px;
+	left: 10px;
     }
     #captionTwo, #captionFour {
-	text-align: left;
-	top: 20px;
-	left: 20px;
+	bottom: 10px;
+	left: 10px;
+    }
+}
+
+.orbit-caption {
+    .title {
+	text-align: right;
+	font-weight: $header-weight;
+	padding: 5px;
+	border-right: 2px solid $highlight-color;
+	width: 40%;
+	display: inline-block;
+    }
+    .body {
+	font-size: emCalc(20px);
+	font-family: $body-font;
+	width: 45%;
+	display: inline-block;
     }
 }
 

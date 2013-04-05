@@ -155,27 +155,63 @@ h2, .img-wrapper {
 	color: $highlight-color;
 	/* text-transform: uppercase; */
 	/* font-weight: 900; */
-	background-color: transparent;
+	//background-color: transparent;
 	/* width: auto; */
 	position: absolute;
 	display: inline-block;
 	bottom: auto;
     }
-    #captionOne, #captionThree {
-	bottom: 10px;
-	left: 10px;
+    .active {
+        #captionOne {
+	    bottom: 15px;
+	    left: -15px;
+            .body {
+                top: 10px;
+            }
+        }
+        #captionTwo {
+	    bottom: 15px;
+	    left: -15px;
+            .title {
+                width: 52%;
+            }
+            .body {
+                top: -20px;
+            }
+        }
+        #captionThree {
+	    bottom: 15px;
+	    left: -15px;
+            .body {
+                top: -21px;
+            }
+        }
+        #captionFour {
+	    bottom: 15px;
+	    left: -15px;
+            .title {
+                width: 53%;
+            }
+            .body {
+                top: 10px;
+            }
+        }
     }
-    #captionTwo, #captionFour {
-	bottom: 10px;
-	left: 10px;
-    }
+}
+
+.orbit-prev, .orbit-next {
+    display: none;
+}
+
+.orbit-bullets {
+    left: 50%;
 }
 
 .orbit-caption {
     .title {
 	text-align: right;
 	font-weight: $header-weight;
-	padding: 5px;
+	padding: 5px 10px 5px 5px;
 	border-right: 2px solid $highlight-color;
 	width: 50%;
 	display: inline-block;
@@ -183,6 +219,7 @@ h2, .img-wrapper {
     .body {
 	font-size: emCalc(20px);
 	font-family: $body-font;
+        padding-left: 10px;
 	width: 45%;
 	display: inline-block;
         position: relative;
@@ -203,6 +240,17 @@ h2, .img-wrapper {
     height: 12px;
 }
 
+/* #featuredContent { */
+/*     width: 970px; */
+/*     height: 450px; */
+/*     background: transparent url('orbit/loading.gif') no-repeat center center; */
+/*     overflow: hidden; */
+/* } */
+/* #featuredContent img, */
+/* #featuredContent div { */
+/*     display: none; */
+/* } */
+
 #benefits-block .subheader {
     min-height: 80px;
 }
@@ -212,6 +260,15 @@ h2, .img-wrapper {
 }
 
 @media only screen and (max-width: 767px) {
+    .orbit-caption {
+        .title {
+	    border-right: none;
+	    width: 95% !important;
+        }
+        .body {
+            display: none;
+        }
+    }
     #benefits-block .subheader {
 	min-height: 0;
     }

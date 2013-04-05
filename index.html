@@ -37,7 +37,7 @@
 
       <div class="row block">
         <div class="large-12 columns">
-	  <ul data-orbit id="featuredContent" class="centered">
+	  <ul data-orbit data-options="timer_speed:500; animation_speed:500;" id="featuredContent" class="centered">
 	    <li>
 	      <img src="images/main-slides/s1.png" alt="Content acquisation image">
 	      <div class="orbit-caption" id="captionOne">
@@ -220,7 +220,7 @@
 	  <div class="large-12 columns">
 	    <p class="notice">
 	      <!-- Privacy statement |  -->
-	      1999 - 2013 DSSPL
+	      <!-- <a href="#" data-reveal-id="myModal">Privacy policy</a> | --> 1999 - 2013 DSSPL
 	      <br/>
 	      CreativeEdge&trade; is a trademark registered under Digital Spice Studios [P]  Limited in India and other countries
 	    </p>
@@ -236,8 +236,17 @@
       </script>
       <script src="js/foundation/foundation.js"></script>
       <script src="js/foundation/foundation.orbit.js"></script>
+      <script src="js/foundation/foundation.alerts.js"></script>
+      <script src="js/foundation/foundation.dropdown.js"></script>
+      <script src="js/foundation/foundation.section.js"></script>
       <script>
-	$(document).foundation('orbit',{animation: 'fade', animation_speed: 1000, fluid: '2x1', bullets: true, captions: true});
+	$(document).foundation('orbit',{animation: 'fade',  fluid: '2x1'});
       </script>
+      <div id="myModal" class="reveal-modal">
+        <h2>Awesome. I have it.</h2>
+        <p class="lead">Your couch.  It is mine.</p>
+        <p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+        <a class="close-reveal-modal">&#215;</a>
+      </div>
   </body>
 </html>

@@ -259,6 +259,11 @@ h2, .img-wrapper {
     min-height: 85px;
 }
 
+#training-verticals .blurb{
+    text-align: center;
+    padding-top: 0;
+}
+
 @media only screen and (max-width: 767px) {
     .orbit-caption {
         .title {
@@ -317,7 +322,7 @@ h2, .img-wrapper {
 }
 
 .notice {
-    font-size: 14px;
-    font-size: remCalc(14px);
+    font-size: 12px;
+    font-size: remCalc(12px);
     text-align: center;
 }

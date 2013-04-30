@@ -255,6 +255,13 @@ h2, .img-wrapper {
     min-height: 80px;
 }
 
+.services-links {
+    border-top: 1px solid #ccc;
+    ul {
+        list-style-position: inside;
+    }
+}
+
 #training-verticals .subheader{
     min-height: 85px;
 }

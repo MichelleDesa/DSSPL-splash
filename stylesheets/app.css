@@ -5668,19 +5668,19 @@ html, body {
   text-align: right;
   font-weight: 700;
   padding: 5px 10px 5px 5px;
-  border-right: 2px solid #f7941e;
+  /* border-right: 2px solid $highlight-color; */
   width: 50%;
-  display: inline-block;
+  /* display: inline-block; */
 }
 /* line 219, ../sass/app.scss */
 .orbit-caption .body {
   font-size: 1.25em;
   font-family: "Kulturista Regular", courier, serif;
   padding-left: 10px;
-  width: 45%;
-  display: inline-block;
-  position: relative;
-  top: -25px;
+  width: 50%;
+  /* display: inline-block; */
+  /* position: relative; */
+  /* top: -25px; */
 }
 
 /* line 230, ../sass/app.scss */
@@ -5738,7 +5738,7 @@ html, body {
   /* line 276, ../sass/app.scss */
   .orbit-caption .title {
     border-right: none;
-    width: 95% !important;
+    width: 60% !important;
   }
   /* line 280, ../sass/app.scss */
   .orbit-caption .body {

@@ -212,18 +212,18 @@ h2, .img-wrapper {
 	text-align: right;
 	font-weight: $header-weight;
 	padding: 5px 10px 5px 5px;
-	border-right: 2px solid $highlight-color;
+	/* border-right: 2px solid $highlight-color; */
 	width: 50%;
-	display: inline-block;
+	/* display: inline-block; */
     }
     .body {
 	font-size: emCalc(20px);
 	font-family: $body-font;
         padding-left: 10px;
-	width: 45%;
-	display: inline-block;
-        position: relative;
-        top: -25px;
+	width: 50%;
+	/* display: inline-block; */
+        /* position: relative; */
+        /* top: -25px; */
     }
 }
 
@@ -275,7 +275,7 @@ h2, .img-wrapper {
     .orbit-caption {
         .title {
 	    border-right: none;
-	    width: 95% !important;
+	    width: 60% !important;
         }
         .body {
             display: none;

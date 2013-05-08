@@ -255,6 +255,18 @@ h2, .img-wrapper {
 /*     display: none; */
 /* } */
 
+.title-blurb-left {
+    text-transform: uppercase;
+    font-family: $header-font;
+    font-size: 24px;
+    font-style: justify;
+    line-height: 1.45;
+}
+
+.title-blurb-right {
+    text-align: justify;
+}
+
 #benefits-block .subheader {
     min-height: 80px;
 }

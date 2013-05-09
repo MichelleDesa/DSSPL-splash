@@ -5819,8 +5819,12 @@ html, body {
 .footer p.notice {
   margin: 40px 10px 20px;
 }
+/* line 348, ../sass/app.scss */
+.footer .map {
+  padding-top: 60px;
+}
 
-/* line 350, ../sass/app.scss */
+/* line 353, ../sass/app.scss */
 .notice {
   font-size: 12px;
   font-size: 0.75rem;

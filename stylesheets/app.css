@@ -5646,8 +5646,8 @@ html, body {
 }
 /* line 194, ../sass/app.scss */
 .orbit-container .orbit-slides-container .active #captionFour {
-  bottom: 40px;
-  left: -15px;
+  bottom: 10%;
+  left: 0;
 }
 /* line 197, ../sass/app.scss */
 .orbit-container .orbit-slides-container .active #captionFour .title {

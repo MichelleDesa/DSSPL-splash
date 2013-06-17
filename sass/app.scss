@@ -95,6 +95,11 @@ html, body {
     margin: 20px auto 0;
 }
 
+.header, .subheader {
+    text-transform: none;
+ }
+
+
 .p1 {
     color: $p1-fg-color;
     background-color: $p1-bg-color;

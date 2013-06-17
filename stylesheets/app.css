@@ -5662,7 +5662,7 @@ html, body {
 
 /* line 208, ../sass/app.scss */
 .orbit-bullets {
-  left: 50%;
+  margin-left: 50%;
 }
 
 /* line 213, ../sass/app.scss */

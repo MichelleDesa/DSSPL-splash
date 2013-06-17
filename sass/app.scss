@@ -224,6 +224,7 @@ h2, .img-wrapper {
         text-transform: none;
 	font-weight: $header-weight;
 	padding: 5px 10px 15px 5px;
+	color: #fff;
 	/* border-right: 2px solid $highlight-color; */
 	/* width: 50%; */
 	/* display: inline-block; */
@@ -280,7 +281,8 @@ h2, .img-wrapper {
 }
 
 #benefits-block .subheader {
-    min-height: 80px;
+    margin-top: 20px;
+    min-height: 55px;
 }
 
 .services-links {
@@ -290,8 +292,14 @@ h2, .img-wrapper {
     }
 }
 
-#training-verticals .subheader{
+/*#training-verticals .subheader{
     min-height: 85px;
+}*/
+
+#training-verticals {
+    p {
+      margin-top: 20px;
+    }   
 }
 
 #training-verticals .blurb{

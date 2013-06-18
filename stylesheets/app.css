@@ -6536,7 +6536,7 @@ html, body {
 }
 /* line 290, ../sass/app.scss */
 .services-links ul {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 /*#training-verticals .subheader{

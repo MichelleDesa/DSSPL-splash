@@ -6641,12 +6641,8 @@ html, body {
 .footer p.notice {
   margin: 40px 10px 20px;
 }
-/* line 385, ../sass/app.scss */
-.footer .map {
-  padding-top: 60px;
-}
 
-/* line 390, ../sass/app.scss */
+/* line 387, ../sass/app.scss */
 .notice {
   font-size: 12px;
   font-size: remCalc(12px);

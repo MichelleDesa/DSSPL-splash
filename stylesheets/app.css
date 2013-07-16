@@ -6459,7 +6459,12 @@ html, body {
   margin-left: 50%;
 }
 
-/* line 222, ../sass/app.scss */
+/* line 221, ../sass/app.scss */
+#title-slideshow.row {
+  padding: 0 40px;
+}
+
+/* line 226, ../sass/app.scss */
 .orbit-caption .title {
   /* text-align: right; */
   text-transform: none;
@@ -6470,7 +6475,7 @@ html, body {
   /* width: 50%; */
   /* display: inline-block; */
 }
-/* line 232, ../sass/app.scss */
+/* line 236, ../sass/app.scss */
 .orbit-caption .body {
   font-size: 1.25em;
   font-family: "PT Sans Narrow", sans-serif;
@@ -6481,17 +6486,17 @@ html, body {
   /* top: -25px; */
 }
 
-/* line 243, ../sass/app.scss */
+/* line 247, ../sass/app.scss */
 .orbit-slide-number {
   display: none;
 }
 
-/* line 247, ../sass/app.scss */
+/* line 251, ../sass/app.scss */
 .orbit-timer {
   display: none;
 }
 
-/* line 251, ../sass/app.scss */
+/* line 255, ../sass/app.scss */
 .orbit-bullets li {
   width: 12px;
   height: 12px;
@@ -6510,50 +6515,50 @@ html, body {
 /* #featuredContent div { */
 /*     display: none; */
 /* } */
-/* line 271, ../sass/app.scss */
+/*
 .title-blurb-left {
-  text-transform: uppercase;
-  font-family: "PT Sans Narrow", sans-serif;
-  font-size: 24px;
-  font-style: justify;
-  line-height: 1.45;
+    text-transform: uppercase;
+    font-family: $header-font;
+    font-size: 24px;
+    font-style: justify;
+    line-height: 1.45;
 }
 
-/* line 279, ../sass/app.scss */
 .title-blurb-right {
-  text-align: justify;
+    text-align: justify;
 }
-
-/* line 283, ../sass/app.scss */
+*/
+/* line 289, ../sass/app.scss */
 #benefits-block .subheader {
   margin-top: 20px;
   min-height: 55px;
 }
 
-/* line 288, ../sass/app.scss */
+/* line 294, ../sass/app.scss */
 .services-links {
   border-top: 1px solid #ccc;
 }
-/* line 290, ../sass/app.scss */
+/* line 296, ../sass/app.scss */
 .services-links ul {
   list-style-position: outside;
+  padding-left: 20px;
 }
 
 /*#training-verticals .subheader{
     min-height: 85px;
 }*/
-/* line 300, ../sass/app.scss */
+/* line 307, ../sass/app.scss */
 #training-verticals p {
   margin-top: 20px;
 }
 
-/* line 305, ../sass/app.scss */
+/* line 312, ../sass/app.scss */
 #training-verticals .blurb {
   text-align: center;
   padding-top: 0;
 }
 
-/* line 310, ../sass/app.scss */
+/* line 317, ../sass/app.scss */
 .verticals-details {
   font-size: 13px;
   font-size: remCalc(13px);
@@ -6565,115 +6570,119 @@ html, body {
   width: 100%;
   padding: 2px 10px;
 }
-/* line 320, ../sass/app.scss */
+/* line 327, ../sass/app.scss */
 .verticals-details:hover {
   color: #0d0d0d;
   background: #f38809;
 }
 
-/* line 326, ../sass/app.scss */
+/* line 333, ../sass/app.scss */
 .verticals-details-nolink {
   color: #e1caad;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 332, ../sass/app.scss */
+  /* line 339, ../sass/app.scss */
   .orbit-caption .title {
     border-right: none;
     width: 60% !important;
   }
-  /* line 336, ../sass/app.scss */
+  /* line 343, ../sass/app.scss */
   .orbit-caption .body {
     display: none;
   }
 
-  /* line 340, ../sass/app.scss */
+  /* line 347, ../sass/app.scss */
   #benefits-block .subheader {
     min-height: 0;
   }
 
-  /* line 345, ../sass/app.scss */
+  /* line 352, ../sass/app.scss */
   #benefits-block p, #training-verticals p {
     margin-bottom: 60px;
   }
-  /* line 348, ../sass/app.scss */
+  /* line 355, ../sass/app.scss */
   #benefits-block .subheader, #training-verticals .subheader {
     text-align: center;
     margin-bottom: 0;
   }
 
-  /* line 354, ../sass/app.scss */
+  /* line 361, ../sass/app.scss */
   #training-details-button {
     margin-bottom: 60px;
   }
 
-  /* line 358, ../sass/app.scss */
+  /* line 365, ../sass/app.scss */
   p.before-button {
     margin-bottom: 20px !important;
   }
 
-  /* line 362, ../sass/app.scss */
+  /* line 369, ../sass/app.scss */
   .available-as {
     text-align: center;
     margin-bottom: 10px;
   }
 }
-/* line 368, ../sass/app.scss */
+/* line 375, ../sass/app.scss */
 .block {
-  padding: 30px 0;
+  padding: 30px 40px;
 }
 
-/* line 372, ../sass/app.scss */
+/* line 379, ../sass/app.scss */
 .footer {
   color: #e1caad;
   background-color: #222;
   padding-top: 30px;
 }
-/* line 376, ../sass/app.scss */
+/* line 383, ../sass/app.scss */
 .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, .footer h6 {
   color: #e1caad;
 }
-/* line 379, ../sass/app.scss */
+/* line 386, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
   font-size: 13px;
   font-size: remCalc(13px);
 }
-/* line 384, ../sass/app.scss */
+/* line 391, ../sass/app.scss */
 .footer ul.article-list {
   font-size: 13px;
   font-size: remCalc(13px);
   list-style: none;
 }
-/* line 388, ../sass/app.scss */
+/* line 395, ../sass/app.scss */
 .footer ul.article-list a {
   color: #e1caad;
   display: block;
   padding: 10px 0;
   border-bottom: 1px solid #000;
 }
-/* line 393, ../sass/app.scss */
+/* line 400, ../sass/app.scss */
 .footer ul.article-list a:hover {
   color: #f7941e;
 }
 
-/* line 400, ../sass/app.scss */
+/* line 407, ../sass/app.scss */
 .notice {
   font-size: 12px;
   font-size: remCalc(12px);
 }
 
-/* line 405, ../sass/app.scss */
+/* line 412, ../sass/app.scss */
 .footer-epilogue {
   color: #e1caad;
   padding-top: 10px;
   background-color: #111;
 }
-/* line 409, ../sass/app.scss */
+/* line 416, ../sass/app.scss */
+.footer-epilogue .row {
+  padding: 0 40px;
+}
+/* line 419, ../sass/app.scss */
 .footer-epilogue .social-list {
   list-style: none;
 }
-/* line 411, ../sass/app.scss */
+/* line 421, ../sass/app.scss */
 .footer-epilogue .social-list li {
   padding: 0 10px 0 0;
   float: right;

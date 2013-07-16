@@ -218,6 +218,10 @@ h2, .img-wrapper {
     margin-left: 50%;
 }
 
+#title-slideshow.row{
+    padding: 0 40px;
+}
+
 .orbit-caption {
     .title {
 	/* text-align: right; */
@@ -268,6 +272,7 @@ h2, .img-wrapper {
 /*     display: none; */
 /* } */
 
+/*
 .title-blurb-left {
     text-transform: uppercase;
     font-family: $header-font;
@@ -279,6 +284,7 @@ h2, .img-wrapper {
 .title-blurb-right {
     text-align: justify;
 }
+*/
 
 #benefits-block .subheader {
     margin-top: 20px;
@@ -289,6 +295,7 @@ h2, .img-wrapper {
     border-top: 1px solid #ccc;
     ul {
         list-style-position: outside;
+	padding-left: 20px;
     }
 }
 
@@ -366,7 +373,7 @@ h2, .img-wrapper {
 }
 
 .block {
-    padding: $section-space 0;
+    padding: $section-space 40px;
 }
 
 .footer {
@@ -406,6 +413,9 @@ h2, .img-wrapper {
     color: $light-body-color;
     padding-top: 10px;
     background-color: #111;
+    .row {
+    	 padding: 0 40px;
+    }
     .social-list {
       list-style: none;
       li {

@@ -85,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /* $PAGE SPECIFIC STYLES */
 html, body {
     margin: 0;
@@ -387,6 +386,15 @@ h2, .img-wrapper {
 	margin: 10px 0;
     	font-size: 13px;
     	font-size: remCalc(13px);
+	line-height: 1.4;
+    }
+    .company-name {
+    	font-size: 16px;
+    	font-size: remCalc(16px);
+	margin-bottom: -5px;
+    }
+    .company-details {
+    	margin-bottom: 20px;
     }
     ul.article-list {
     	font-size: 13px;
@@ -404,8 +412,8 @@ h2, .img-wrapper {
     }   
 }
 
-.notice {
-    font-size: 12px;
+.small {
+    font-size: 12px !important;
     font-size: remCalc(12px);
 }
 

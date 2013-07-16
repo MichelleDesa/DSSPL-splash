@@ -271,20 +271,6 @@ h2, .img-wrapper {
 /*     display: none; */
 /* } */
 
-/*
-.title-blurb-left {
-    text-transform: uppercase;
-    font-family: $header-font;
-    font-size: 24px;
-    font-style: justify;
-    line-height: 1.45;
-}
-
-.title-blurb-right {
-    text-align: justify;
-}
-*/
-
 #benefits-block .subheader {
     margin-top: 20px;
     min-height: 55px;
@@ -297,10 +283,6 @@ h2, .img-wrapper {
 	padding-left: 20px;
     }
 }
-
-/*#training-verticals .subheader{
-    min-height: 85px;
-}*/
 
 #training-verticals {
     p {
@@ -334,6 +316,14 @@ h2, .img-wrapper {
 }
 
 @media only screen and (max-width: 767px) {
+    .title-blurb-left, .title-blurb-right, .blurb, .p2 .header, .p3 .header {
+   	text-align: left !important;
+    }
+    
+    .blurb.block {
+    	padding-left: 0;
+    }
+
     .orbit-caption {
         .title {
 	    border-right: none;
@@ -349,13 +339,21 @@ h2, .img-wrapper {
 
     #benefits-block, #training-verticals {
 	p {
-	    margin-bottom: 60px;
+//	    margin-bottom: 30px;
 	}
 	.subheader {
-	    text-align: center;
-	    margin-bottom: 0;
+//	    text-align: center;
+//	    margin-bottom: 0;
 	}
     }
+    
+/*
+    #training-verticals {
+    	.img-wrapper {
+	    text-align: left !important;
+	}
+    }
+*/
 
     #training-details-button {
 	margin-bottom: 60px;
@@ -364,10 +362,9 @@ h2, .img-wrapper {
     p.before-button {
 	margin-bottom: 20px !important;
     }
-
-    .available-as {
-	text-align: center;
-	margin-bottom: 10px;
+    
+    .map {
+    	 padding: 40px 40px 0 0;
     }
 }
 

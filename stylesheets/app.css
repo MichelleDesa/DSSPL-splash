@@ -6468,8 +6468,7 @@ html, body {
 .orbit-caption .title {
   /* text-align: right; */
   text-transform: none;
-  font-weight: 700;
-  padding: 5px 10px 15px 5px;
+  padding: 5px 10px 0 5px;
   color: #fff;
   /* border-right: 2px solid $highlight-color; */
   /* width: 50%; */

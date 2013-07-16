@@ -6626,7 +6626,7 @@ html, body {
 /* line 372, ../sass/app.scss */
 .footer {
   color: #e1caad;
-  background-color: #0d0d0d;
+  background-color: #222;
   padding-top: 30px;
 }
 /* line 376, ../sass/app.scss */
@@ -6636,15 +6636,45 @@ html, body {
 /* line 379, ../sass/app.scss */
 .footer p {
   margin: 10px 0;
+  font-size: 13px;
+  font-size: remCalc(13px);
 }
-/* line 381, ../sass/app.scss */
-.footer p.notice {
-  margin: 40px 10px 20px;
+/* line 384, ../sass/app.scss */
+.footer ul.article-list {
+  font-size: 13px;
+  font-size: remCalc(13px);
+  list-style: none;
+}
+/* line 388, ../sass/app.scss */
+.footer ul.article-list a {
+  color: #e1caad;
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid #000;
+}
+/* line 393, ../sass/app.scss */
+.footer ul.article-list a:hover {
+  color: #f7941e;
 }
 
-/* line 387, ../sass/app.scss */
+/* line 400, ../sass/app.scss */
 .notice {
   font-size: 12px;
   font-size: remCalc(12px);
-  text-align: center;
+}
+
+/* line 405, ../sass/app.scss */
+.footer-epilogue {
+  color: #e1caad;
+  padding-top: 10px;
+  background-color: #111;
+}
+/* line 409, ../sass/app.scss */
+.footer-epilogue .social-list {
+  list-style: none;
+}
+/* line 411, ../sass/app.scss */
+.footer-epilogue .social-list li {
+  padding: 0 10px 0 0;
+  float: right;
 }

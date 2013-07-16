@@ -308,7 +308,7 @@ h2, .img-wrapper {
 }
 
 .verticals-details{
-   font-size: 13px;
+    font-size: 13px;
     font-size: remCalc(13px);
     text-align: left;
     text-transform: uppercase;
@@ -371,21 +371,46 @@ h2, .img-wrapper {
 
 .footer {
     color: $light-body-color;
-    background-color: $dark-body-color;
+    background-color: #222;
     padding-top: $section-space;
     h1, h2, h3, h4, h5, h6 {
 	color: $light-body-color;
     }
     p {
 	margin: 10px 0;
-	&.notice {
-	    margin: 40px 10px 20px;
-	}
+    	font-size: 13px;
+    	font-size: remCalc(13px);
     }
+    ul.article-list {
+    	font-size: 13px;
+    	font-size: remCalc(13px);
+	list-style: none;
+     a { 
+       	color: $light-body-color;
+        display: block;
+	padding: 10px 0;
+	border-bottom: 1px solid #000;
+        &:hover {
+         color: $highlight-color;
+       }
+     }
+    }   
 }
 
 .notice {
     font-size: 12px;
     font-size: remCalc(12px);
-    text-align: center;
+}
+
+.footer-epilogue {
+    color: $light-body-color;
+    padding-top: 10px;
+    background-color: #111;
+    .social-list {
+      list-style: none;
+      li {
+        padding: 0 10px 0 0;
+        float: right;
+      }
+    }	    
 }

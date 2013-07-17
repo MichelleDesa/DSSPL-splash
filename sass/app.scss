@@ -324,10 +324,19 @@ h2, .img-wrapper {
     	padding-left: 0;
     }
 
+    .orbit-container .orbit-slides-container .orbit-caption {
+	    width: 100% !important;
+    }
+
     .orbit-caption {
+    	left: 0 !important;
+	bottom: 0 !important;
+	padding: 0 !important;
+	font-size: 0.8em !important;
         .title {
 	    border-right: none;
-	    width: 60% !important;
+	    width: 80% !important;
+	    margin: 5px !important;
         }
         .body {
             display: none;

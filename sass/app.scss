@@ -155,17 +155,13 @@ h2, .img-wrapper {
 
 .orbit-container .orbit-slides-container {
     .orbit-caption {
+    	display: none;
 	font-family: $header-font-family;
-	/* @include text-shadow(rgba(0,0,0,0.5) 1px 1px 1px); */
 	color: $highlight-color;
-	/* text-transform: uppercase; */
-	/* font-weight: 900; */
-	//background-color: transparent;
-	/* width: auto; */
         width: 45% !important;
         padding: 10px 30px;
 	position: absolute;
-	display: inline-block;
+	//display: inline-block;
 	bottom: auto;
     }
     .active {

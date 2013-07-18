@@ -55,12 +55,6 @@ h1, h2, h3, h4, h5, h6 {
     word-spacing: 3px;
 }
 
-/* h1 { */
-/*     /\* @include font-size($h1-font-size); *\/ */
-/*     font-size: $h1-font-size; */
-/*     font-size: remCalc($h1-font-size); */
-/* } */
-
 .emp {
     text-transform: uppercase;
 }
@@ -215,7 +209,7 @@ h2, .img-wrapper {
 }
 
 #title-slideshow.row{
-    padding: 0 40px;
+    padding: 0 50px;
 }
 
 .orbit-caption {
@@ -430,7 +424,7 @@ h2, .img-wrapper {
     padding-top: 10px;
     background-color: #111;
     .row {
-    	 padding: 0 40px;
+    	 padding: 0 50px;
     }
     .social-list {
       list-style: none;
